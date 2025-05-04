@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
 });
 
 // Gebruik poort uit omgevingsvariabele (voor Render), anders 25565
-const port = process.env.PORT || 25566;
+const port = process.env.PORT || 25565;
 
 server.listen(port, () => {
   console.log(`VoiceCraft-server draait op poort ${port}`);
